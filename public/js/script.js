@@ -20,3 +20,8 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 const markers = {};
+
+socket.on("receive-location", (data) => {
+    const {id, latitude, longitude} = data;
+    map.setView([latitude, longitude]);
+});
