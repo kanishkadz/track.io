@@ -14,4 +14,4 @@ if(navigator.geolocation){
     });
 }
 
-L.map("map");
+L.map("map").setView([0, 0], 10);
