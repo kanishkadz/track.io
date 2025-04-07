@@ -13,3 +13,5 @@ if(navigator.geolocation){
         maximumAge: 0
     });
 }
+
+L.map("map");
