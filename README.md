@@ -1,4 +1,4 @@
-# 📍 Track.io
+# 📍 track.io
 
 **Track.io** is a powerful and dynamic **real-time tracking web application** built with **Express**, **EJS**, and **Socket.IO**. Designed for speed and accuracy, it delivers seamless **live tracking capabilities** with a robust backend-driven architecture.
 
